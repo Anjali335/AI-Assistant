@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python configuration and caches
+pyvenv.cfg
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Executables and activation scripts in virtual environment Scripts folder
+Scripts/*.exe
+Scripts/activate
+Scripts/activate.bat
+Scripts/Activate.ps1
+Scripts/deactivate.bat
+
+# Secret files
+.env
+*.env
+Scripts/.env

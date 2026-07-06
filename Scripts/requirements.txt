@@ -1,0 +1,9 @@
+flask
+openai
+chardet
+requests
+faiss-cpu
+sentence-transformers
+numpy
+torch
+
