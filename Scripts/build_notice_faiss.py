@@ -2,9 +2,9 @@ import json
 import os
 import sys
 from pathlib import Path
-# import faiss
-# import numpy as np
-# from sentence_transformers import SentenceTransformer
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
 
 # Fix encoding issues in Windows console
 if sys.platform.startswith('win'):

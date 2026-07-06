@@ -238,6 +238,100 @@ if homepage_path.exists():
             "category": "General Info"
         })
 
+    # 5. Parse admission.txt for Admission, Fees, Contact and Courses
+    admission_path = PROCESSED_FOLDER / "admission.txt"
+    if admission_path.exists():
+        with open(admission_path, "r", encoding="utf-8") as f:
+            adm_text = f.read().replace('\xa0', ' ')
+
+        # Entry 1: Fee Structure
+        all_records.append({
+            "source_file": "admission.txt",
+            "url": "https://www.dbgisre.edu.in/fee-structure/",
+            "date": "Static Info",
+            "title": "DBGI Saharanpur Annual Fee Structure 2025-26",
+            "category": "Admission",
+            "content": (
+                "Annual Fee Structure for the Academic Session 2025-26:\n"
+                "- **B. Tech**: ₹ 55,000/-\n"
+                "- **B. Pharma**: ₹ 63,300/-\n"
+                "- **MBA**: ₹ 59,700/-\n"
+                "- **MCA**: ₹ 55,000/-\n"
+                "- **Polytechnic (Diploma Engg)**: ₹ 30,150/-\n"
+                "- **D. Pharma**: ₹ 45,000/-\n"
+                "- **BBA**: ₹ 24,500/-\n"
+                "- **BCA**: ₹ 35,500/-\n"
+                "- **B.COM**: ₹ 10,455/-\n\n"
+                "Official Fee Structure page: https://www.dbgisre.edu.in/fee-structure/"
+            )
+        })
+
+        # Entry 2: Contact Info
+        all_records.append({
+            "source_file": "admission.txt",
+            "url": "https://dbgisre.edu.in/contact-us/",
+            "date": "Static Info",
+            "title": "DBGI Saharanpur Admissions Office and Contact Information",
+            "category": "General Info",
+            "content": (
+                "DBGI Saharanpur Admissions Office Address & Contact details:\n"
+                "- **Address**: OUR ADMISSIONS OFFICE, 7 Km. Milestone Dabki Road, Village Beri Jamapur Ahtemal Via Civil Hospital Xing, Saharanpur (Uttar Pradesh) 247001\n"
+                "- **Email**: dbgi@dbgisre.edu.in\n"
+                "- **Contact Numbers**: +91 9568775222, +91 9568776222\n\n"
+                "Official Social Media Links:\n"
+                "- **Facebook**: https://www.facebook.com/dbgisre\n"
+                "- **Instagram**: https://www.instagram.com/dbgi.saharanpur/\n"
+                "- **YouTube**: https://www.youtube.com/@dbgisaharanpurofficial\n"
+                "- **Google Maps Location**: https://maps.google.com/?q=Dev+Bhoomi+Group+of+Institutions+Saharanpur"
+            )
+        })
+
+        # Entry 3: Academic Calendars, Syllabus & Results Portals
+        all_records.append({
+            "source_file": "admission.txt",
+            "url": "https://dbgisre.edu.in/result/",
+            "date": "Static Info",
+            "title": "DBGI Academic Portals, Syllabus, Results & Calendars",
+            "category": "General Info",
+            "content": (
+                "Official links and portals for DBGI students:\n"
+                "- **Previous Year Exam Papers**: https://dbgisre.edu.in/old-exam-papers/\n"
+                "- **Syllabus details**: DBGI page (https://dbgisre.edu.in/syllabus/), AKTU (https://aktu.ac.in/syllabus.html), MSU (https://msuniversity.ac.in/syllabus.php), BTE UP (https://bteup.ac.in/webapp/home.aspx)\n"
+                "- **Academic Calendar**: DBGI page (https://dbgisre.edu.in/academic-calender/), AKTU (https://aktu.ac.in/academic-calender.html), MSU (https://msuniversity.ac.in/academic-calender.php), BTE UP (https://bteup.ac.in/webapp/home.aspx)\n"
+                "- **Result Portals**: DBGI page (https://dbgisre.edu.in/result/), AKTU OneView (https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx), MSU Results (https://msuresults.com/), BTE UP Portal (https://bteup.ac.in/webapp/home.aspx)"
+            )
+        })
+
+        # Entry 4: Courses and Application Links
+        all_records.append({
+            "source_file": "admission.txt",
+            "url": "https://dbgisre.edu.in/student-registration/",
+            "date": "Static Info",
+            "title": "DBGI Saharanpur Courses Offered & Admission Links",
+            "category": "Admission",
+            "content": (
+                "Complete directory of courses and programs offered at DBGI Saharanpur:\n"
+                "- **B.Tech - Computer Science & Engineering**: https://www.dbgisre.edu.in/b-tech-computer-science-engineering/\n"
+                "- **B.Tech - Civil Engineering**: https://www.dbgisre.edu.in/b-tech-civil-engineering/\n"
+                "- **B.Tech - Electrical & Electronics Engineering**: https://www.dbgisre.edu.in/b-tech-electrical-electronics-engineering/\n"
+                "- **B.Tech - Mechanical Engineering (ME)**: https://www.dbgisre.edu.in/b-tech-mechanical-engineering-me/\n"
+                "- **B.Tech - Electronics & Communication Engineering**: https://www.dbgisre.edu.in/b-tech-electronics-and-communication-engineering/\n"
+                "- **MBA (Master of Business Administration)**: https://www.dbgisre.edu.in/master-of-business-administration-mba\n"
+                "- **MCA (Master of Computer Application)**: https://www.dbgisre.edu.in/master-of-computer-application-mca\n"
+                "- **BCA (Bachelor of Computer Application)**: https://www.dbgisre.edu.in/bachelor-of-computer-application-bca\n"
+                "- **BBA (Bachelor of Business Administration)**: https://www.dbgisre.edu.in/bachelor-of-business-administration-bba\n"
+                "- **B.Pharm (Bachelor of Pharmacy)**: https://www.dbgisre.edu.in/bachelor-of-pharmacy-b-pharma\n"
+                "- **D.Pharm (Diploma in Pharmacy)**: https://www.dbgisre.edu.in/diploma-in-pharmacy\n"
+                "- **Diploma in Civil Engineering**: https://www.dbgisre.edu.in/diploma-in-civil-engineering/\n"
+                "- **Diploma in Computer Science & Engineering**: https://www.dbgisre.edu.in/diploma-in-computer-science-engg/\n"
+                "- **Diploma in Mechanical Engineering (Automobile)**: https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile/\n"
+                "- **Diploma in Mechanical Engineering (Production)**: https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringproduction/\n"
+                "- **Diploma in Electrical Engineering**: https://www.dbgisre.edu.in/diploma-in-electrical-engineering/\n"
+                "- **Diploma in Electronics & Communication**: https://www.dbgisre.edu.in/diploma-in-electronics-communication/\n\n"
+                "Apply or Register for Admission here: https://dbgisre.edu.in/student-registration/"
+            )
+        })
+
 # --- Step 3: De-duplicate records by title ---
 # If a notice exists both in list and as specific post, we keep the one with longer content.
 unique_records = {}

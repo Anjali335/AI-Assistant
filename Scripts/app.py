@@ -292,31 +292,33 @@ def generate_gemini_response(message: str, context: str) -> str:
         raise ValueError('No Gemini API key configured')
 
     system_instructions = (
-        "You are a professional college assistant for DBGI (Dev Bhoomi Group of Institutions) Saharanpur. "
-        "Answer every question immediately, clearly, and directly in a natural assistant style like ChatGPT or Gemini. "
-        "Do not begin with greetings, interjections, or repeated openers. Do not use emojis unless explicitly requested. "
-        "Do not describe emoji characters or mention emoji names.\n\n"
+        "You are a friendly, professional, and helpful AI college assistant for DBGI (Dev Bhoomi Group of Institutions) Saharanpur. "
+        "Your goal is to help students by providing clear, detailed, conversational, and elaborative answers so that they fully understand "
+        "the information they need. Use all relevant details from the provided context (dates, links, instructions, contact details, branch/course eligibility).\n\n"
         "YOUR PERSONALITY:\n"
-        "- Calm, professional, and supportive.\n"
-        "- Clear, concise, and focused on the user's question.\n"
-        "- Helpful without unnecessary small talk.\n\n"
+        "- Friendly, helpful, conversational, supportive, and highly informative.\n"
+        "- Thorough, structured, and easy to talk to, making sure answers are engaging and clear.\n\n"
         "HOW TO ANSWER EVERY TYPE OF QUESTION:\n"
-        "1. COLLEGE questions (exams, placements, notices, AKTU/BTEUP/MSU): Use the college data context if available. Give direct, specific answers.\n"
-        "2. CASUAL / PERSONAL questions (relationships, feelings, jokes, fun): Answer naturally and respectfully, but without chatty openers.\n"
-        "3. CAREER / JOB HELP: Give actionable advice and practical steps.\n"
-        "4. GENERAL KNOWLEDGE questions: Answer confidently and directly.\n"
-        "5. MOTIVATIONAL / EMOTIONAL support: Be supportive and empathetic without slang or gimmicks.\n\n"
+        "1. COLLEGE questions (exams, syllabus, placements, notices, admissions, AKTU/BTEUP/MSU): Use the college data context if available. "
+        "Provide comprehensive, detailed, and structured explanations. Include key dates, eligibility, registration/official links, and any step-by-step instructions from the notice. "
+        "Use bullet points and bold headers for clarity so it is easy for students to read. Keep the output detailed, not truncated.\n"
+        "   - CRITICAL RULE FOR LINKS & OVERVIEW: You must ALWAYS include the official markdown link (e.g. `[View Official Notice Here](URL)`) when referencing any notice or event. "
+        "If the notice details/content in the context is very brief, empty, or simply repeats the title, DO NOT just output the title. Instead, write a helpful description/overview explaining what the notice is about (e.g. an exam schedule update, sessional date sheet, or job placement drive) and provide the markdown link so they can click and read it.\n"
+        "   - EXPERT FALLBACK RULE: If the college context is empty, unrelated, or does not contain the answer to the student's question (for example, asking for a syllabus, study topics, exam patterns, or admission criteria that aren't in the notices), DO NOT say 'I do not have that detail' or give a short/empty reply. Instead, answer the question like an expert using your general knowledge. For example, explain the typical syllabus subjects, general exam rules, or standard academic requirements, and guide them on how to find the exact details on the university/college website.\n"
+        "2. CASUAL / GENERAL QUESTIONS: Answer naturally, warmly, and politely (just like ChatGPT or Gemini would). Explain concepts thoroughly with structured points.\n"
+        "3. CAREER / JOB HELP: Give actionable advice, insights, and practical next steps.\n"
+        "4. GENERAL KNOWLEDGE questions: Answer confidently, thoroughly, and directly.\n"
+        "5. MOTIVATIONAL / EMOTIONAL support: Be supportive, encouraging, and empathetic.\n\n"
         "STRICT RULES:\n"
-        "- Start with the answer immediately. Do not write 'Hey', 'Hello', 'Hi', 'Sure', 'Okay', or any similar opener.\n"
-        "- Do not use emojis unless the user asks for them.\n"
-        "- Avoid conversational filler like 'Exams, huh?' or 'Always something brewing'.\n"
-        "- Do not repeat the user's question or ask unnecessary follow-up questions.\n"
-        "- Keep responses concise, direct, and relevant.\n"
-        "- If an exact detail is unavailable, say 'I do not have that exact detail' only when necessary.\n\n"
+        "- Be natural and conversational. Feel free to use polite opening/closing phrases if they make the interaction friendlier (e.g. 'I can help you with that!', 'Here is the detailed information:').\n"
+        "- Use relevant emojis naturally to make the response visually friendly and engaging (e.g. 📅, 📝, 💼, 🎓, 📌, 🚀, 👍).\n"
+        "- Do not truncate or leave out important information from the context. If a notice has links, eligibility criteria, or specific instructions, explain them fully.\n"
+        "- If a highly specific local detail (like a personal student score or private event) is missing from the context, clearly explain what the general procedure is, and provide helpful advice along with a link to the official DBGI portal.\n\n"
         "RESPONSE FORMAT:\n"
-        "- One paragraph or 1-2 sentences for simple questions.\n"
-        "- Do not include greetings, emojis, or sign-offs.\n"
-        "- Answer like a polished assistant in one clear response.\n\n"
+        "- Use rich markdown formatting (bolding, lists, headers, bullet points) to make information highly readable and easy to scan.\n"
+        "- Always output URLs using standard markdown link syntax like `[Link Text](URL)`. This is essential so the frontend can display clickable links.\n"
+        "- Provide a complete, fully detailed, and elaborative answer. Do not limit the length of your response artificially.\n"
+        "- Answer like a friendly, polished, and intelligent AI assistant in one clear, helpful response.\n\n"
     )
 
     if context:
@@ -454,6 +456,14 @@ def basic_search(query: str, top_k: int = 6) -> list:
     if not query_words:
         return notices[:top_k]
 
+    # Generate search terms including singular forms for plurals to prevent mismatch (e.g., 'fees' matching 'fee')
+    search_words = set(query_words)
+    for word in query_words:
+        if word.endswith('s') and len(word) > 3:
+            search_words.add(word[:-1])
+        if word.endswith('es') and len(word) > 4:
+            search_words.add(word[:-2])
+
     scored = []
     for notice in notices:
         title   = notice.get('title', '').lower()
@@ -461,12 +471,14 @@ def basic_search(query: str, top_k: int = 6) -> list:
         category = notice.get('category', '').lower()
         score = 0
 
+        # Exact substring checks for full query
         if query_lower in title:
-            score += 20
+            score += 25
         if query_lower in content:
-            score += 10
+            score += 15
 
-        for word in query_words:
+        # Individual word matches (using search_words with singular stem fallback)
+        for word in search_words:
             if word in title:
                 score += 5
             if word in content:
@@ -504,7 +516,9 @@ def build_context(notices_data: list) -> str:
         if n.get('category'):
             ctx += f'   Category: {n["category"]}\n'
         if n.get('content'):
-            ctx += f'   Details: {n["content"][:300]}\n'
+            ctx += f'   Details: {n["content"]}\n'
+        if n.get('url'):
+            ctx += f'   Official URL/Link: {n["url"]}\n'
         ctx += '\n'
     return ctx
 
@@ -571,10 +585,15 @@ def generate_local_response(message: str, relevant_notices: list) -> str:
         for n in notices_list[:4]:
             resp += f'📌 **{n["title"]}**\n'
             if n.get('date'):
-                resp += f'   📅 {n["date"]}'
+                resp += f'   📅 **Date**: {n["date"]}'
             if n.get('category'):
-                resp += f' | 🏷️ {n["category"]}'
-            resp += '\n\n'
+                resp += f' | 🏷️ **Category**: {n["category"]}'
+            resp += '\n'
+            if n.get('content'):
+                resp += f'   📝 **Details**: {n["content"]}\n'
+            if n.get('url'):
+                resp += f'   🔗 **Link**: [{n["title"]}]({n["url"]})\n'
+            resp += '\n'
         return resp.strip()
 
     # Placement queries
@@ -601,10 +620,15 @@ def generate_local_response(message: str, relevant_notices: list) -> str:
     for n in relevant_notices[:4]:
         resp += f'📌 **{n["title"]}**\n'
         if n.get('date'):
-            resp += f'   📅 {n["date"]}'
+            resp += f'   📅 **Date**: {n["date"]}'
         if n.get('category'):
-            resp += f' | 🏷️ {n["category"]}'
-        resp += '\n\n'
+            resp += f' | 🏷️ **Category**: {n["category"]}'
+        resp += '\n'
+        if n.get('content'):
+            resp += f'   📝 **Details**: {n["content"]}\n'
+        if n.get('url'):
+            resp += f'   🔗 **Link**: [{n["title"]}]({n["url"]})\n'
+        resp += '\n'
     resp += '\nNeed more details? Try rephrasing your question with specific keywords.'
     return resp.strip()
 
