@@ -1,63 +1,501 @@
-tablescraper-selected-row	tablescraper-selected-row href
-Diploma In Civil Engineering	https://www.dbgisre.edu.in/diploma-in-civil-engineering/
-Diploma In Computer Science	https://www.dbgisre.edu.in/diploma-in-computer-science-engg/
-Diploma In Mechanical Engineering (Automobile)	https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile/
-Diploma In Mechanical Engineering (Production)	https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringproduction/
-Diploma In Electrical Engineering	https://www.dbgisre.edu.in/diploma-in-electrical-engineering/
-Diploma In Electronics & Communication	https://www.dbgisre.edu.in/diploma-in-electronics-communication/
-B.Tech – Civil Engineering	https://www.dbgisre.edu.in/b-tech-civil-engineering/
-B.Tech – Computer Science & Engineering	https://www.dbgisre.edu.in/b-tech-computer-science-engineering/
-B.Tech – Electrical & Electronics Engineering	https://www.dbgisre.edu.in/b-tech-electrical-electronics-engineering/
-B.Tech – Mechanical Engineering (ME)	https://www.dbgisre.edu.in/b-tech-mechanical-engineering-me/
-B.Tech – Electronics & Communiation Engineering	https://www.dbgisre.edu.in/b-tech-electronics-and-communication-engineering/
-
-
-
-menu-item href	eb_menu_title	menu-item href 2	eb_menu_title 2	menu-item href 3	eb_menu_title 3	menu-item href 4	eb_menu_title 4	menu-item href 5	eb_menu_title 5	menu-item href 6	eb_menu_title 6	menu-item href 7	eb_menu_title 7	menu-item href 8	eb_menu_title 8	menu-item href 9	eb_menu_title 9	menu-item href 10	eb_menu_title 10	menu-item href 11	eb_menu_title 11	menu-item href 12	eb_menu_title 12	menu-item href 13	eb_menu_title 13	menu-item href 14	eb_menu_title 14	menu-item href 15	eb_menu_title 15	menu-item href 16	eb_menu_title 16	menu-item href 17	eb_menu_title 17	menu-item href 18	eb_menu_title 18
-https://dbgisre.edu.in/student-registration/#	ABOUT US	https://dbgisre.edu.in/about/	About	https://dbgisre.edu.in/chairman-message/	Chairman Message	https://dbgisre.edu.in/managing-director-dbgi-message/	Managing Director – DBGI MESSAGE	https://dbgisre.edu.in/the-management/	The Management																										
-https://dbgisre.edu.in/student-registration/#	ADMISSION	https://dbgisre.edu.in/admission-procedure/	Admission Procedure	https://dbgisre.edu.in/student-registration/	Admission Registration	https://www.dbgisre.edu.in/fee-structure/	Fee Structure 2025-26	https://dbgisre.edu.in/prospectus-2/	PROSPECTUS																										
-https://www.dbgisre.edu.in/courses/	COURSES	https://dbgisre.edu.in/student-registration/#	DIPLOMA	https://dbgisre.edu.in/diploma-in-pharmacy/	Diploma In Pharmacy	https://dbgisre.edu.in/diploma-in-civil-engineering/	Diploma In Civil Engineering	https://dbgisre.edu.in/diploma-in-civil-engineering-2/	Diploma In Computer Science	https://dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile-2/	Diploma In Mechanical Engineering(Automobile)	https://dbgisre.edu.in/diploma-in-mechanical-engineeringproduction-2/	Diploma In Mechanical Engineering(Production)	https://dbgisre.edu.in/diploma-in-electrical-engineering-2/	Diploma In Electrical Engineering	https://dbgisre.edu.in/diploma-in-electronics-communication-2/	Diploma In Electronics & Communication	https://dbgisre.edu.in/student-registration/#	UNDERGRADUATE	https://dbgisre.edu.in/b-tech-civil-engineering-2/	B.Tech – Civil Engineering	https://dbgisre.edu.in/b-tech-computer-science-engineering-2/	B.Tech – Computer Science Engineering	https://dbgisre.edu.in/b-tech-electrical-electronics-engineering-2/	B.Tech – Electrical & Electronics Engineering	https://dbgisre.edu.in/b-tech-mechanical-engineering-me-2/	B.Tech – Mechanical Engineering (ME)	https://dbgisre.edu.in/b-tech-electronics-and-communication-engineering-2/	B.Tech – Electronics and Communication Engineering	https://dbgisre.edu.in/bachelor-of-pharmacy-b-pharma-2/	Bachelor Of Pharmacy (B.Pharma)	https://dbgisre.edu.in/bachelor-of-computer-application-bca-2/	Bachelor of Computer Application (BCA)	https://dbgisre.edu.in/bachelor-of-business-administrationbba/	Bachelor of Business Administration(BBA)
-https://dbgisre.edu.in/student-registration/#	ACADEMICS	https://dbgisre.edu.in/old-exam-papers/	Previous Year Exam Papers	https://docs.google.com/forms/d/e/1FAIpQLSfXChahXnLrZ3-LBAKVbj_CNWVUVkGuQ1HQUwsMKrs4QZ3BIQ/viewform	Alumni Registration	https://dbgisre.edu.in/mega-job-fair/	JOB FAIR	https://dbgisre.edu.in/company-list/	Company List	https://dbgisre.edu.in/academic-calender/	Academic Calender	https://aktu.ac.in/academic-calender.html	AKTU- Lucknow	https://msuniversity.ac.in/academic-calender.php	MSU- Saharanpur	https://bteup.ac.in/webapp/home.aspx	BTE – Lucknow	https://dbgisre.edu.in/syllabus/	Syllabus	https://aktu.ac.in/syllabus.html	AKTU  – Lucknow	https://msuniversity.ac.in/syllabus.php	MSU –   Saharanpur	https://bteup.ac.in/webapp/home.aspx	BTE –    Lucknow	https://dbgisre.edu.in/result/	Result	https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx	AKTU –  Lucknow	https://msuresults.com/	MSU  –  Saharanpur	https://bteup.ac.in/webapp/home.aspx	BTU –   Lucknow	https://erp175.balajisolution.in/	DBGI WEB
-https://dbgisre.edu.in/student-registration/#	PLACEMENTS	https://dbgisre.edu.in/our-recruiters/	Our Recruiters	https://dbgisre.edu.in/placements-track-record/	Placements Track Record																														
-https://dbgisre.edu.in/event-gallery/	Event Gallery																																		
-https://dbgisre.edu.in/contact-us/	CONTACT US																																		
-https://dbgisre.edu.in/career-dbgi/	Career @ DBGI																																		
-https://dbgisre.edu.in/umeed/	UMEED									wpdt-cell	wpdt-cell 2	wpdt-cell 3
-S.N.	Programme	Fee
-1.	B. Tech	₹ 55,000/-
-2.	B. Pharma	₹ 63,300/-
-3.	MBA	₹ 59,700/-
-4.	MCA	₹ 55,000/-
-5.	Polytechnic	₹ 30,150/-
-6.	D. Pharma	₹ 45,000/-
-7.	BBA	₹ 24,500/-
-8.	BCA	₹ 35,500/-
-9.	B.COM	₹ 10,455/-		
-
-tablescraper-selected-row	tablescraper-selected-row 2
-B.TECH AND POLYTECHNIC (CIVIL/EEE/ME/ECE/CS/IT), MBA, MCA, BBA, BCA, B.Com, B.Pharm, D.Pharm	HOD/Prof. :
-B. TECH (CIVIL/EEE/ME/ECE/CS/IT/), MBA, MCA, BBA, BCA, B.Com, B.Pharm, D.Pharm	Assot. Prof. :
-B. TECH (CIVIL/EEE/ME/ECE/CS/IT/), MBA, MCA, BBA, BCA, B.Com, B.Pharm, D.Pharm	Asst. Prof.:
-:                   Applied Science (Physics/Maths/Chemistry/English with Ph.D.)	Prof./Assot.Prof./Asst.Prof.
-B.Tech with M.Tech Degree (with relevant experience)	Principal for Polytechnic Institute:
-Post Graduate with a minimum of six years of relevant experience	Registrar –
-Post Graduate with a minimum of three years of experience	Sub Registrar –
-A Prof. with relevant experience of 10 years	Examination Head-
-A well-spoken graduate with basic knowledge of computer (MBA will be preferred)	Admin Officer-
-– Well experienced (Man with Army background will be preferred)	Mechanical Transport Officer
-Lab Technicians, Hostel Warden, Clerks/Office Assistants, , System Administrator/Networking Engineers, Computer Lab Technicians, and Peons.	Technical / Support Staff: –
-
-
-
-elementor-widget-container	elementor-widget-container 2	attachment-large src	elementor-widget-container href	elementor-button href	elementor-button-text	attachment-large src 2	elementor-widget-container 3	elementor-widget-container 4	elementor-widget-container href 2	elementor-button href 2	attachment-large src 3	elementor-widget-container 5	elementor-widget-container 6	elementor-widget-container href 3	elementor-button href 3	elementor-button-text 3
-COURSES	Polytechnic | Engineering | Management | Pharmacy | BBA | BCA															
-Pharmacy	Diploma In Pharmacy	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC7040-1024x683.jpg	https://www.dbgisre.edu.in/diploma-in-pharmacy	https://www.dbgisre.edu.in/diploma-in-pharmacy	APPLY NOW	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC_0271-1024x683.jpg	Civil-Engineering	Diploma in Civil Engineering	https://www.dbgisre.edu.in/diploma-in-civil-engineering/	https://www.dbgisre.edu.in/diploma-in-civil-engineering	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6916-1024x683.jpg	Mechanical-Engineering	Diploma in Mechanical Engineering (Automobile)	https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile/	https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile	APPLY NOW
-Mechanical-Engineering	Diploma in Mechanical Engineering (Production)	https://dbgisre.edu.in/wp-content/uploads/2023/07/51281072899_7a851fa21a_o-1-1024x683.webp	https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringproduction/	https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringproduction	APPLY NOW	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6685-1024x683.jpg	Electrical-And-Electronics-Engineering	Diploma in Electrical Engineering	https://www.dbgisre.edu.in/diploma-in-electrical-engineering/	https://www.dbgisre.edu.in/diploma-in-electrical-engineering	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6777-1024x683.jpg	Electronics-Communication-Engineering	Diploma in Electronics & Communication	https://www.dbgisre.edu.in/diploma-in-electronics-communication/	https://www.dbgisre.edu.in/diploma-in-electronics-communication	APPLY NOW
-Computer-Application	Diploma In Computer Science & Engg	https://dbgisre.edu.in/wp-content/uploads/2023/07/DSC6722-1-1024x683.webp	https://www.dbgisre.edu.in/diploma-in-computer-science-engg	https://www.dbgisre.edu.in/diploma-in-computer-science-engg	APPLY NOW	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC_7019-1024x683.jpg	Pharmacy	Bachelor of Pharmacy (B.Pharm)	https://www.dbgisre.edu.in/bachelor-of-pharmacy-b-pharma	https://www.dbgisre.edu.in/bachelor-of-pharmacy-b-pharma	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6719-1024x683.jpg	Computer-Application	Bachelor of Computer Application (BCA)	https://www.dbgisre.edu.in/bachelor-of-computer-application-bca	https://www.dbgisre.edu.in/bachelor-of-computer-application-bca	APPLY NOW
-Management	Bachelor of Business Administration(BBA)	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6805-1024x683.jpg	https://www.dbgisre.edu.in/bachelor-of-business-administration-bba	https://www.dbgisre.edu.in/bachelor-of-business-administration-bba	APPLY NOW	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6703-1024x683.jpg	Computer-Application	Master Of Computer Application(MCA)	https://www.dbgisre.edu.in/master-of-computer-application-mca	https://www.dbgisre.edu.in/master-of-computer-application-mca	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC_0347-1024x683.jpg	Management	Master of Business Administration (MBA)	https://www.dbgisre.edu.in/master-of-business-administration-mba	https://www.dbgisre.edu.in/master-of-business-administration-mba	APPLY NOW
-Electronics-Communication-Engineering	B.Tech – Electronics and Communication Engineering	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC_0485-1024x683.jpg	https://www.dbgisre.edu.in/b-tech-electronics-and-communication-engineering	https://www.dbgisre.edu.in/b-tech-electronics-and-communication-engineering	APPLY NOW	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6897-1024x683.jpg	Mechanical-Engineering	B.Tech – Mechanical Engineering (ME)	https://www.dbgisre.edu.in/b-tech-mechanical-engineering-me	https://www.dbgisre.edu.in/b-tech-mechanical-engineering-me	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC6694-1024x683.jpg	Electrical-And-Electronics-Engineering	B.Tech – Electrical and Electronics Engineering	https://www.dbgisre.edu.in/b-tech-electrical-electronics-engineering	https://www.dbgisre.edu.in/b-tech-electrical-electronics-engineering	APPLY NOW
-Computer-Science-Engineering	B.Tech – Computer Science &Engineering	https://dbgisre.edu.in/wp-content/uploads/2025/12/dg1-min-1024x683.jpg	https://www.dbgisre.edu.in/b-tech-computer-science-engineering	https://www.dbgisre.edu.in/b-tech-computer-science-engineering	APPLY NOW	https://dbgisre.edu.in/wp-content/uploads/2023/06/DSC_0319-1024x683.jpg	Civil-Engineering	B.Tech – Civil Engineering	https://www.dbgisre.edu.in/b-tech-civil-engineering	https://www.dbgisre.edu.in/b-tech-civil-engineering						
-elementor-heading-title	elementor-widget-container	elementor-widget-container 2	elementor-widget-container 3	elementor-widget-container 4	elementor-widget-container 5	elementor-widget-container 6	elementor-widget-container 7	elementor-widget-container 8	elementor-icon href	elementor-screen-only	elementor-icon href 2	elementor-screen-only 2	elementor-icon href 3	elementor-screen-only 3	elementor-custom-embed src
-CONTACT US															
-	DEV BHOOMI GROUP OF INSTITUTIONS SAHARANPUR	B.TECH ( CIVIL ENGG,/ ELECTRICAL AND ELECTRONICS ENGG./ELECTRONICS AND COMMUNICATION ENGG/MECHANICAL ENGG/COMPUTER SCIENCE ENGG.)/MBA/MCA	DEV BHOOMI INSTITUTE OF POLYTECHNIC, SAHARANPUR	DIPLOMA ENGG IN ( CIVIL ENGG,/ ELECTRICAL ENGG./MECHANICAL ENGG (AUTOMOBILE)/MECHANICAL ENGG (PRODUCTION)/COMPUTER SCIENCE.	DEV BHOOMI SCHOOL OF PROFESSIONAL STUDIES,SAHARANPUR	BBA/BCA/B.COM	DEV BHOOMI COLLEGE OF PHARMACY, SAHARANPUR	D.PHARM/B.PHARM							
-	OUR ADMISSIONS OFFICE 7 Km.Milestone Dabki Road,Village Beri Jamapur Ahtemal Via Civil Hospital Xing,Saharanpur (Uttar Pradesh) 247001Email:- dbgi@dbgisre.edu.inContact No:- +91 9568775222, +91 9568776222								https://www.facebook.com/dbgisre	Facebook	https://www.instagram.com/dbgi.saharanpur/	Instagram	https://www.youtube.com/@dbgisaharanpurofficial	Youtube	https://maps.google.com/maps?q=OUR%20ADMISSIONS%20OFFICE%207%20Km.%20Milestone%20Dabki%20Road%2C%20Village%20Beri%20Jamapur%20Ahtemal%20Via%20Civil%20Hospital%20Xing%2C%20Saharanpur%20%28Uttar%20Pradesh%29%20247001%20Email%3A-%20dbgi%40dbgisre.edu.in%20Contact%20No%3A-%20%2B91%209568775222%2C%20%2B91%209568776222&t=m&z=10&output=embed&iwloc=near
+{
+  "courses": [
+    {
+      "course_name": "Diploma In Civil Engineering",
+      "url": "https://www.dbgisre.edu.in/diploma-in-civil-engineering/"
+    },
+    {
+      "course_name": "Diploma In Computer Science",
+      "url": "https://www.dbgisre.edu.in/diploma-in-computer-science-engg/"
+    },
+    {
+      "course_name": "Diploma In Mechanical Engineering (Automobile)",
+      "url": "https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile/"
+    },
+    {
+      "course_name": "Diploma In Mechanical Engineering (Production)",
+      "url": "https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringproduction/"
+    },
+    {
+      "course_name": "Diploma In Electrical Engineering",
+      "url": "https://www.dbgisre.edu.in/diploma-in-electrical-engineering/"
+    },
+    {
+      "course_name": "Diploma In Electronics & Communication",
+      "url": "https://www.dbgisre.edu.in/diploma-in-electronics-communication/"
+    },
+    {
+      "course_name": "B.Tech – Civil Engineering",
+      "url": "https://www.dbgisre.edu.in/b-tech-civil-engineering/"
+    },
+    {
+      "course_name": "B.Tech – Computer Science & Engineering",
+      "url": "https://www.dbgisre.edu.in/b-tech-computer-science-engineering/"
+    },
+    {
+      "course_name": "B.Tech – Electrical & Electronics Engineering",
+      "url": "https://www.dbgisre.edu.in/b-tech-electrical-electronics-engineering/"
+    },
+    {
+      "course_name": "B.Tech – Mechanical Engineering (ME)",
+      "url": "https://www.dbgisre.edu.in/b-tech-mechanical-engineering-me/"
+    },
+    {
+      "course_name": "B.Tech – Electronics & Communiation Engineering",
+      "url": "https://www.dbgisre.edu.in/b-tech-electronics-and-communication-engineering/"
+    }
+  ],
+  "fee_structure_2025_26": [
+    {
+      "programme": "B. Tech",
+      "fee": "₹ 55,000/-"
+    },
+    {
+      "programme": "B. Pharma",
+      "fee": "₹ 63,300/-"
+    },
+    {
+      "programme": "MBA",
+      "fee": "₹ 59,700/-"
+    },
+    {
+      "programme": "MCA",
+      "fee": "₹ 55,000/-"
+    },
+    {
+      "programme": "Polytechnic",
+      "fee": "₹ 30,150/-"
+    },
+    {
+      "programme": "D. Pharma",
+      "fee": "₹ 45,000/-"
+    },
+    {
+      "programme": "BBA",
+      "fee": "₹ 24,500/-"
+    },
+    {
+      "programme": "BCA",
+      "fee": "₹ 35,500/-"
+    },
+    {
+      "programme": "B.COM",
+      "fee": "₹ 10,455/-"
+    }
+  ],
+  "staff_requirements": [
+    {
+      "qualification": "B.TECH AND POLYTECHNIC (CIVIL/EEE/ME/ECE/CS/IT), MBA, MCA, BBA, BCA, B.Com, B.Pharm, D.Pharm",
+      "position": "HOD/Prof. :"
+    },
+    {
+      "qualification": "B. TECH (CIVIL/EEE/ME/ECE/CS/IT/), MBA, MCA, BBA, BCA, B.Com, B.Pharm, D.Pharm",
+      "position": "Assot. Prof. :"
+    },
+    {
+      "qualification": "B. TECH (CIVIL/EEE/ME/ECE/CS/IT/), MBA, MCA, BBA, BCA, B.Com, B.Pharm, D.Pharm",
+      "position": "Asst. Prof.:"
+    },
+    {
+      "qualification": ":                   Applied Science (Physics/Maths/Chemistry/English with Ph.D.)",
+      "position": "Prof./Assot.Prof./Asst.Prof."
+    },
+    {
+      "qualification": "B.Tech with M.Tech Degree (with relevant experience)",
+      "position": "Principal for Polytechnic Institute:"
+    },
+    {
+      "qualification": "Post Graduate with a minimum of six years of relevant experience",
+      "position": "Registrar –"
+    },
+    {
+      "qualification": "Post Graduate with a minimum of three years of experience",
+      "position": "Sub Registrar –"
+    },
+    {
+      "qualification": "A Prof. with relevant experience of 10 years",
+      "position": "Examination Head-"
+    },
+    {
+      "qualification": "A well-spoken graduate with basic knowledge of computer (MBA will be preferred)",
+      "position": "Admin Officer-"
+    },
+    {
+      "qualification": "– Well experienced (Man with Army background will be preferred)",
+      "position": "Mechanical Transport Officer"
+    },
+    {
+      "qualification": "Lab Technicians, Hostel Warden, Clerks/Office Assistants, , System Administrator/Networking Engineers, Computer Lab Technicians, and Peons.",
+      "position": "Technical / Support Staff: –"
+    }
+  ],
+  "recruiters": [
+    {
+      "company": "AMIT ENGINEERS DERRABASSI",
+      "logo_url": "https://dbgisre.edu.in/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-07-at-2.49.30-PM-300x300.webp"
+    },
+    {
+      "company": "STYLAM INDUSTRY PANCHKULA",
+      "logo_url": "https://dbgisre.edu.in/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-07-at-2.49.29-PM-300x300.webp"
+    },
+    {
+      "company": "OGNIBENE INDIA PVT. LTD.",
+      "logo_url": "https://dbgisre.edu.in/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-07-at-2.49.28-PM-300x300.webp"
+    },
+    {
+      "company": "SWARAJ ENGINES LIMITED",
+      "logo_url": "https://dbgisre.edu.in/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-07-at-2.49.27-PM-240x300.webp"
+    }
+  ],
+  "contact": {
+    "Institution Name": "DEV BHOOMI GROUP OF INSTITUTIONS SAHARANPUR",
+    "Unit 1": "B.TECH ( CIVIL ENGG,/ ELECTRICAL AND ELECTRONICS ENGG./ELECTRONICS AND COMMUNICATION ENGG/MECHANICAL ENGG/COMPUTER SCIENCE ENGG.)/MBA/MCA",
+    "Unit 2 Name": "DEV BHOOMI INSTITUTE OF POLYTECHNIC, SAHARANPUR",
+    "Unit 2 Programs": "DIPLOMA ENGG IN ( CIVIL ENGG,/ ELECTRICAL ENGG./MECHANICAL ENGG (AUTOMOBILE)/MECHANICAL ENGG (PRODUCTION)/COMPUTER SCIENCE",
+    "Unit 3 Name": "DEV BHOOMI SCHOOL OF PROFESSIONAL STUDIES, SAHARANPUR",
+    "Unit 3 Programs": "BBA/BCA/B.COM",
+    "Unit 4 Name": "DEV BHOOMI COLLEGE OF PHARMACY, SAHARANPUR",
+    "Unit 4 Programs": "D.PHARM/B.PHARM",
+    "Address": "7 Km. Milestone Dabki Road, Village Beri Jamapur Ahtemal, Via Civil Hospital Xing, Saharanpur (Uttar Pradesh) 247001",
+    "Email": "dbgi@dbgisre.edu.in",
+    "Phone": "+91 9568775222, +91 9568776222",
+    "Facebook": "https://www.facebook.com/dbgisre",
+    "Instagram": "https://www.instagram.com/dbgi.saharanpur/",
+    "Youtube": "https://www.youtube.com/@dbgisaharanpurofficial"
+  },
+  "notices_recent_2025_2026_verified": [
+    {
+      "title": "शैक्षिक सत्र 2026-27 में विषम सेमेस्टर हेतु पठन पाठन एवं अन्य क्रियाकलाप के संबंध में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639183958923162467.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 हेतु डिप्लोमा स्तरीय नई तकनीकी शिक्षा संस्थाओं एवं परिषद से पूर्व से सम्बद्ध  डिप्लोमा स्तरीय तकनीकी शिक्षा संस्थाओं (इंजीनियरिंग/वास्तुकला/फार्मेसी) को सम्बद्धता/ सम्बद्धता विस्तार प्रदान किये जाने संबंधी आवेदन करने की तिथि को विस्तारित किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639171787510046405.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर परीक्षा, मई-जून 2026 में सम्मिलित हुए रजिस्टर्ड/रि-रजिस्टर्ड समस्त छात्र/छात्राओं के सैत्रिक/गेम्स/अनुशासन अंक ऑनलाइन भराये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639168171118999898.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर / विशेष बैक पेपर परीक्षा मई – जून २०२६ की प्रयोगात्मक परीक्षा के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639166499831115890.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर / विशेष बैक पेपर परीक्षा मई – जून २०२६ की प्रयोगात्मक परीक्षा के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639166498001705105.pdf"
+    },
+    {
+      "title": "फार्मेसी की वार्षिक परीक्षा जून 2026 , कराये जाने विषयक आवश्यक सूचना",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639163486597129772.pdf"
+    },
+    {
+      "title": "CUET की परीक्षाओं के दृष्टिगत छूटी हुई सेमेस्टर/वार्षिक परीक्षा हेतु परीक्षा कार्यक्रम |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639160568112622522.pdf"
+    },
+    {
+      "title": "CUET की परीक्षाओं के दृष्टिगत छूटी हुई सेमेस्टर/वार्षिक परीक्षा  दिनाक 11/06/2026 , 12/06/2026 एवं 13/06/2026  को जनपद के नोडल सेन्कटर में कराये जाने  के संबंध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639160566892595312.pdf"
+    },
+    {
+      "title": "परिषद द्वारा आयोजित सम सेमेस्टर/वार्षिक/बैक पेपर परीक्षा, मई-जून-2026 में सम्मिलित हो रहे रजिस्टर्ड/रि-रजिस्टर्ड समस्त छात्र/छात्राओं के सैत्रिक/गेम्स/अनुशासन अंक आंनलाइन भराये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639155110137554615.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 से परिषद से पूर्व से सम्बद्ध संस्थाओं को अल्पसंख्यक संस्था के रूप में ट्रीट किये जाने हेतु यू-राईज पोर्टल के माध्यम से आवेदन किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639154415638252175.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर / विशेष बैक पेपर परीक्षा मई – जून २०२६ के कतिपय प्रश्न पत्रों की परीक्षा तिथि में संशोधन के सम्बन्ध में सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639153871175745632.pdf"
+    },
+    {
+      "title": "ईद-उल-अजहा (बकरीद) के कारण दिनांक 28-5-2026 को आयोजित होने वाली सेमेस्टर परीक्षा स्थगित करते हुए दिनांक 31-5-2026 को आयोजित किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639153607395542911.pdf"
+    },
+    {
+      "title": "दिनांक 21-5-2026 को लेखपाल मुख्य परीक्षा की लिखित परीक्षा के दृष्टिगत दिनांक 21-5-2026 को आयोजित होने वाली परिषद की परीक्षाएं दिनांक 24-5-2026 को आयोजित कराये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639150019817100423.pdf"
+    },
+    {
+      "title": "विशेष बैक पेपर परीक्षा मई 2026  एवं  सम सेमेस्टर परीक्षा मई 2026  के परीक्षा कार्यक्रम में आंशिक संशोधन, के सन्दर्भ में सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639143374876736708.pdf"
+    },
+    {
+      "title": "विशेष बैक पेपर (सेमेस्टर) परीक्षा मई 2026  , हेतु निर्धारित एवं अद्यतन परीक्षा कार्यक्रम (आंशिक संशोधन 14/05/2026) |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639143374384226885.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर परीक्षा मई 2026 , हेतु निर्धारित एवं अद्यतन परीक्षा कार्यक्रम (आंशिक संशोधन 14/05/2026) |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639143304378938922.pdf"
+    },
+    {
+      "title": "Pharmacognosy (Paper code-1823) की परीक्षा दिनांक 19-05-2026 को द्वितीय पाली में कराये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639140796341471074.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर परीक्षा  मई 2026 में विषय  को चयन किये जाने से सम्बंधित सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639140508396339329.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/बैक पेपर/विशेष बैक पेपर, मई-2026 परीक्षा में इंजीनियरिंग पाठ्यक्रम के छात्र/छात्राओं के वेरिफिकेशन फार्म एवं एडमिट कार्ड निर्गत किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639138143253207101.pdf"
+    },
+    {
+      "title": "स्पेशल बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025 की परीक्षा में सम्मिलित हुए छात्र/छात्राओं की अंकतालिका एवं सारणीयन पंजिका (टी0 आर0) प्रेषण एवं छात्र/छात्राओं को अंकतालिका प्राप्त कराने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639137277763774686.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर परीक्षा (इंजीनियरिंग )मई 2026 , हेतु निर्धारित  परीक्षा केन्द्रों की सूची |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639137094211615644.pdf"
+    },
+    {
+      "title": "परिषद् की वार्षिक परीक्षा  मई २०२६ (फार्मेसी पाठ्यक्रम) में सम्मलित होने वाले छात्र छात्राओ के एडमिट कार्ड के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639132888209561046.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 से परिषद से पूर्व से सम्बद्ध संस्थाओं को अल्पसंख्यक संस्था के रूप में ट्रीट किये जाने हेतु यू-राईज पोर्टल के माध्यम से आवेदन किये जाने के संबंध में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639132169577538564.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक परीक्षा/बैक पेपर परीक्षा, मई-2026 हेतु लिखित परीक्षा की उत्तरपुस्तिकाओं के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639130575750954913.pdf"
+    },
+    {
+      "title": "वार्षिक परीक्षा मई-2026 में डिप्लोमा इन फार्मेसी पाठ्यक्रम की परीक्षा में सम्मिलित होने वाले छात्र/छात्राओं के वेरिफिकेशन फॉर्म एवं एडमिट कार्ड निर्गत करने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639130574777805458.pdf"
+    },
+    {
+      "title": "प्राविधिक शिक्षा परिषद्,उत्तर प्रदेश की सम सेमेस्टर / वार्षिक परीक्षा /विशेष बेक पेपर (मई- जून 2026 )की परीक्षा हेतु निर्धारित एवं  अद्यतन परीक्षा कार्यक्रम के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639130032579071431.pdf"
+    },
+    {
+      "title": "वार्षिक परीक्षा मई 2026 , हेतु निर्धारित एवं अद्यतन परीक्षा कार्यक्रम |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639130026433622283.pdf"
+    },
+    {
+      "title": "प्राविधिक शिक्षा परिषद्,उत्तर प्रदेश की सम सेमेस्टर / वार्षिक परीक्षा /विशेष बेक पेपर (मई- जून 2026 )की परीक्षा हेतु निर्धारित परीक्षा केन्द्रों केंद्र हेतु केंद्र अधीक्षकों एवं स्थाई पर्वेक्षाको के निर्धारण एवं सूची |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639130021480879180.pdf"
+    },
+    {
+      "title": "प्राविधिक शिक्षा परिषद्,उत्तर प्रदेश की सम सेमेस्टर / वार्षिक परीक्षा /विशेष बेक पेपर (मई- जून 2026 )की परीक्षा हेतु निर्धारित परीक्षा केन्द्रों के निर्धारण के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639130021066494909.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर/विशेष बैक पेपर परीक्षा, मई-2026 की परीक्षा में सम्मिलित होने वाले छात्र/छात्राओं के परीक्षाफार्म Student Login के माध्यम से भराये जाने हेतु अवसर प्रदान किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639125940433463412.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर/विशेष बैक पेपर परीक्षा, मई-2026 की परीक्षा में सम्मिलित होने वाले छात्र/छात्राओं के परीक्षा फार्म संस्था लांगिन द्वारा अग्रसारित किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639124951870596967.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर/विशेष बैक पेपर परीक्षा, मई-2026 की परीक्षा में सम्मिलित होने वाले छात्र/छात्राओं के परीक्षा फार्म संस्था लांगिन द्वारा अग्रसारित किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639124951763719900.pdf"
+    },
+    {
+      "title": "\"विषम सेमेस्टर/विशेष बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025 पुनर्मूल्यांकन परीक्षा",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639122563958847350.pdf"
+    },
+    {
+      "title": "वित्तीय वर्ष/शैक्षिक सत्र 2025-26 दशमोत्तर कक्षाओं में अध्ययनरत् उ0प्र0 के मूल निवासी सामान्य वर्ग/अन्य पिछड़ा वर्ग/अल्पसंख्यक वर्ग/अनुसूचित जाति/अनुसूचित जनजाति के छात्रों हेतु छात्रवृत्ति (शैक्षणिक भत्ता एवं शुल्क प्रतिपूर्ति) व अन्य कार्यों हेतु समय-सारिणी व शासनादेश निर्गत किये के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639120934905887408.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक परीक्षा/विशेष बैक पेपर परीक्षा-मई-2026 के परीक्षा कार्यक्रम का अवलोकन कर किसी प्रकार की त्रुटि अथवा पेपर में clashing संबंधी सूचना परिषद को प्रेषित करने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639120840569213733.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर/विशेष बैक पेपर परीक्षा, मई-2026 की परीक्षा में सम्मिलित होने वाले छात्र/छात्राओं के परीक्षाफार्म Student Login के माध्यम से भराये जाने हेतु अंतिम अवसर (दिनाक 18/04/2026 से 19/04/2026 की मध्यरात्री 12 बजे तक )प्रदान किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639119261170214291.pdf"
+    },
+    {
+      "title": "सम सेमेस्‍टर/वार्षिक/विशेष बैक पेपर/बैक पेपर परीक्षा, मई 2026 के सम्‍भावित परीक्षा कार्यक्रम में किसी प्रकार की त्रुटि Clashing इत्‍यादि की जांच किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639114073753782070.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर/विशेष बैक पेपर, मई-2026 परीक्षा की परीक्षा में सम्मिलित होने वाले छात्र/छात्राओं के परीक्षाफार्म Student Login के माध्यम से भराये जाने विषयक I",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639112924319305671.pdf"
+    },
+    {
+      "title": "\"सम सेमेस्टर/वार्षिक परीक्षा/बैक पेपर/विशेष बैक पेपर परीक्षा, मई 2026 की परीक्षा में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639108103588035520.pdf"
+    },
+    {
+      "title": "\"विषम सेमेस्टर/विशेष बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025 के पुनर्मूल्यांकन परीक्षा परिणाम",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639106334643487712.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 हेतु परिषद से सम्बद्ध समस्त डिप्लोमा इन इंजीनियरिंग संस्थाओं को वर्किंग प्रोफेशनल पाठ्यक्रम हेतु सम्बद्धता/विस्तार प्रदान किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639101169017383805.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक/बैक पेपर/विशेष बैक पेपर परीक्षा, मई-2026 हेतु केवल फार्मेसी पाठ्यक्रम (प्रथम वर्ष एवं अन्तिम वर्ष) के पात्र छात्र/छात्राओं के परीक्षाफार्म भराये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639099904854586321.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 हेतु परिषद से पूर्व से सम्बद्ध समस्त निजी क्षेत्र की संस्थाओं को सम्बद्धता विस्तार प्रदान किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639098577445440268.pdf"
+    },
+    {
+      "title": "वार्षिक परीक्षा मई 2026 (केवल फार्मेसी पाठ्यक्रम हेतु ) परीक्षा शुल्क जमा करने एवं परीक्षा आवेदन  के सम्बन्ध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639095124504078411.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक परीक्षा/विशेष बैक पेपर परीक्षा, मई-2026 के आयोजन के संबंध में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639093324830510384.pdf"
+    },
+    {
+      "title": "शैक्षिक सत्र 2025-26 में ऑनलाइन काउन्सिलिंग के उपरान्त नवप्रवेशित छात्र-छात्राओं के नामांकन किये जाने हेतु अन्तिम अवसर (दिनाक 11/03/2026 से 12/03/2020 की मध्यरात्री 12 बजे तक ) दिये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639087203801986449.pdf"
+    },
+    {
+      "title": "परीक्षा नवम्बर-दिसम्बर 2025 में अनुचित साधन के प्रयोग में आरोपित विद्यार्थियों की समिति के समक्ष दिनांक 10/02/2026 समय प्रातः 10ः00 बजे उपस्थिति/सुनवायी के संबन्ध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639054343749217037.pdf"
+    },
+    {
+      "title": "आगामी सम सेमेस्टर /वार्षिक परीक्षा मई 2026 में सम्मिलित होने वाले समस्त छात्र छात्राओं के सैर्त्रिक परीक्षा कराये जाने विषयक |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639052563805718334.pdf"
+    },
+    {
+      "title": "वार्षिक पद्धति के पाठ्यक्रम हेतु शैक्षिक सत्र 2025-26 में ऑनलाइन काउन्सिलिंग के उपरान्त नव प्रवेशित छात्र-छात्राओं के नामांकन किये जाने हेतु पुनः अवसर (दिनाक 29 /01/2026 से 01 /02/2026 तक ) दिये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639051490383404556.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर/विशेष बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025 के पुनर्मूल्यांकन हेतु ऑनलाईन आवेदन करने की तिथि बढ़ाये जाने के सम्बन्ध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639050904182406245.pdf"
+    },
+    {
+      "title": "वित्तीय वर्ष/शैक्षिक सत्र 2025-26 दशमोत्तर कक्षाओं में अध्ययनरत् उ0प्र0 के मूल निवासी सामान्य वर्ग/अन्य पिछड़ा वर्ग/अल्पसंख्यक वर्ग/अनुसूचित जाति/अनुसूचित जनजाति के छात्रों हेतु छात्रवृत्ति (शैक्षणिक भत्ता एवं शुल्क प्रतिपूर्ति) व अन्य कार्यों हेतु समय-सारिणी व शासनादेश निर्गत किये के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639050813514248425.pdf"
+    },
+    {
+      "title": "प्रदेश के निजी पालीटेक्निक संस्थाओं (इंजीनियरिंग/फार्मेसी) में एस0आई0आर0एफ0 (SIRF) रैंकिंग किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639046355257860160.pdf"
+    },
+    {
+      "title": "पूर्व से संबद्ध डिप्लोमा इन फार्मेसी संस्थाओं को क्लोजर (Closure) हेतु आवेदन के संबंध में ।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639046302784706283.pdf"
+    },
+    {
+      "title": "दिनाक 24/01/2026 को आयोजित किये जाने वाले दीक्षांत समारोह में NEP 2020 के अंतरगत प्रथम वर्ष के पात्र छात्र छात्राओं को प्रमाण पत्र वितरित किये जाने के सम्बन्ध में |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639046250779032383.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर/विशेष बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025  के परीक्षा परिणाम के उपरांत पुनर्मूल्यांकन भराये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639042303699079915.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर / विशेष बैक पेपर परीक्षा नवम्बर=दिसम्बर 2025 का परीक्षा परिणाम घोषित किये जाने के सम्बन्ध में |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639039742114143818.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 हेतु प्राविधिक शिक्षा विभाग के नियंत्रणाधीन डिप्लोमा स्तरीय नई फार्मेसी संस्थाओं को सम्बद्धता (Affiliation) प्रदान किये जाने, पूर्व से संचालित संस्था में नया पाठ्यक्रम प्रारम्भ किये जाने, प्रवेश क्षमता में वृद्धि कमी एवं संस्था क्लोजर इत्यादि हेतु यू-राईज पोर्टल के माध्यम से आवेदन किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639036237691342053.pdf"
+    },
+    {
+      "title": "वार्षिक पद्धति के पाठ्यक्रम हेतु शैक्षिक सत्र 2025-26 में ऑनलाइन काउन्सिलिंग के उपरान्त नव प्रवेशित छात्र-छात्राओं के नामांकन किये जाने हेतु पुनः अवसर दिये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639035409357115179.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक परीक्षा जून 2025 में सम्मिलित हुए समस्त छात्र/छात्राओं की प्रथम वर्ष एवं द्वितीय वर्ष की अंकतालिकाएं (अंतिम वर्ष को छोड़कर) संस्था लॉग इन में उपलब्ध कराने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639027552740477143.pdf"
+    },
+    {
+      "title": "सत्र 2026-27 हेतु प्राविधिक शिक्षा विभाग के नियंत्रणाधीन डिप्लोमा स्तरीय नई तकनीकी एवं वास्तुकला शिक्षा संस्थाओं को (डी0फार्मा संस्थाओं को छोड़कर) सम्बद्धता (Affiliation) प्रदान किये जाने एवं पूर्व से सम्बद्ध संस्थाओं में नया पाठ्यक्रम खोले जाने, संस्थान के नाम परिवर्तन, प्रवेश क्षमता में वृद्धि/कमी एवं संस्था क्लोजर हेतु यू-राईज पोर्टल के माध्यम से आवेदन किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639026738363407927.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर परीक्षा 2025 की प्रयोगात्मक परीक्षा के अंक ऑनलाइन भरे जाने की अंतिम तिथि दिनाक 31 /12/ 2025 तक विस्तारित किये जाने के सम्बन्ध में |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639026417762387490.pdf"
+    },
+    {
+      "title": "वित्तीय वर्ष/शैक्षिक सत्र 2025-26 में दशमोत्तर छात्रवृत्ति योजनार्न्तगत उच्च कक्षाओं में अध्ययनरत उ0प्र0 के मूल निवासी सामान्य वर्ग, अन्य पिछड़ा वर्ग व अल्पसंख्यक वर्ग के छात्र/छात्राओं को छात्रवृत्ति (शैक्षणिक भत्ता एवं शुल्क प्रतिपूर्ति) भुगतान हेतु संशोधित समय-सारिणी का शासनादेश निर्गत किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639023323036275901.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर/विशेष बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025 में सम्मिलित हुए पाठ्यक्रम के रजिस्टर्ड/रि-रजिस्टर्ड छात्र/छात्राओं के सैत्रिक/गेम्स/अनुशासन अंक ऑनलाइन भराये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639019571689200899.pdf"
+    },
+    {
+      "title": "सत्र 2025-26 हेतु परिषद कार्यालय के छात्रवृत्ति/शुल्क  प्रतिपूर्ति पोर्टल पर किये गये आवेदनों को अग्रसारित किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639009180236933063.pdf"
+    },
+    {
+      "title": "शैक्षणिक सत्र 2026-27 हेतु ए0आई0सी0टी0ई0 का अनुमोदन प्राप्त किये जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639005651817728160.pdf"
+    },
+    {
+      "title": "आधार कार्ड की अनुमन्यता जन्म तिथि के प्रमाण के रूप में न होने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_639005649341853752.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर/विशेष बैक पेपर परीक्षा, नवम्बर-दिसम्बर 2025 में सम्मिलित हो रहे समस्त पाठ्यक्रम के रजिस्टर्ड/रि-रजिस्टर्ड छात्र/छात्राओं के सैत्रिक/गेम्स/अनुशासन अंक ऑनलाइन भराये जाने की अंतिम तिथि दिनाक 03 /12 /2025 तक विस्तारित किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638999853580970086.pdf"
+    },
+    {
+      "title": "परिषद द्वारा आयोजित विषम सेमेस्‍टर/विशेष बैक पेपर परीक्षा नवम्‍बर-दिसम्‍बर, 2025 में सम्‍मलित हो रहे समस्‍त पाठ्यक्रम के रजिस्‍टर्ड/रि-रजिस्‍टर्ड छात्र/छात्राओं के सैत्रिक/गेम्‍स/अनुशासन अंक ऑनलाइन भराये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638994582567102913.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर /विशेष बैक पेपर नवम्बर - दिसम्बर 2025 के शुचितापूर्ण संचालन के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638985196668140638.pdf"
+    },
+    {
+      "title": "विशेष बैक पेपर ,नवम्बर-दिसम्बर 2025 का परीक्षा कार्यक्रम (अंतिम संशोधित 12/11/2025)",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638985141336013090.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर/विशेष बैक पेपर, दिसंबर-2025 के परीक्षा केन्द्रों के संबंध में सूचना",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638984995996505604.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर /विशेष बैक पेपर नवम्बर - दिसम्बर 2025  का परीक्षा कार्यक्रम के सम्बन्ध में महत्वपूर्ण सूचना",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638984524320975997.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर ,नवम्बर - दिसम्बर 2025 का परीक्षा कार्यक्रम (अंतिम संशोधित 11/11/2025)",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638984308430141288.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर / विशेष बैक पेपर परीक्षा ,नवम्बर - दिसम्बर 2025 के परीक्षा फॉर्म हेतु (दिनाकं   10/11/2025 को प्रातः 8  बजे से रात्री 12 बजे तक )  अंतिम रूप से पोर्टल खोले जाने के सम्बन्ध में |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638982418687740773.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर /विशेष बैक पेपर ,नवम्बर - दिसम्बर 2025 परीक्षा के परीक्षा फॉर्म भराए जाने के सम्बन्ध में आवश्यक सूचना |",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638979685017492460.pdf"
+    },
+    {
+      "title": "विशेष बैक पेपर ,नवम्बर - दिसम्बर 2025 परीक्षा कार्यक्रम के सम्बन्ध में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638978074745001763.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर /विशेष बैक पेपर ,नवम्बर - दिसम्बर 2025 परीक्षा कार्यक्रम के सम्बन्ध में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638974993301932380.pdf"
+    },
+    {
+      "title": "विषम सेमेस्टर /विशेष बैक पेपर ,नवम्बर - दिसम्बर 2025 परीक्षा के परीक्षा फॉर्म भराए जाने के सम्बन्ध  में",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638974765031220425.pdf"
+    },
+    {
+      "title": "नवप्रवेषित छात्र छात्राओं के नामाकन की तिथि दिनाक 31 अक्टूबर 2025 तक विस्तारित किये जाने के सम्बन्ध में सूचना",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638973359264322062.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक परीक्षा/बैक पेपर परीक्षा, जून 2025 की परीक्षा में सम्मिलित हुए छात्र/छात्राओं की अंकतालिका (अंतिम वर्ष/बैक पेपर) एवं सारणीयन पंजिका (टी0 आर0) प्रेषण के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638963511182655869.pdf"
+    },
+    {
+      "title": "वित्तीय वर्ष 2024-25 में दशमोत्तर छात्रवृत्ति/शुल्क प्रतिपूर्ति (कक्षा 11-12 को छोड़कर) अन्य दशमोत्तर कक्षाओं में अध्ययनरत् योजनान्तर्गत वंचित समस्त वर्गो के छात्रों के लिए पोर्टल खोले जाने के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638959479699233357.pdf"
+    },
+    {
+      "title": "सम सेमेस्टर/वार्षिक परीक्षा/अंतिम वर्ष बैक पेपर परीक्षा, जून-2025 में उत्तीर्ण छात्र/छात्राओं के डिप्लोमा प्रमाण-पत्र प्रेषण के संबंध में।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638959116194660730.pdf"
+    },
+    {
+      "title": "शैक्षिक सत्र 2025-26 में आंनलाइन काउन्सिलिंग के उपरान्त केवल इंजीनियरिंग पाठ्यक्रम हेतु नव प्रवेशित छात्र-छात्राओं का नामांकन किये जाने विषयक।",
+      "pdf_url": "https://bteup.ac.in/PDFFILES/NEWS_638956754066590254.pdf"
+    }
+  ],
+  "notices_note": "Full BTEUP notices archive spans 400+ entries from 2018-2026. 83 of the most recent (2025-2026) notices are included above, verified against the source text. The remaining older archive entries were not hand-transcribed to avoid transcription errors at scale -- for guaranteed 100% fidelity on the full historical archive, upload the original export file (csv/xlsx/html) for programmatic parsing."
+}

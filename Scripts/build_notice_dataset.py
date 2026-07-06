@@ -238,99 +238,113 @@ if homepage_path.exists():
             "category": "General Info"
         })
 
-    # 5. Parse admission.txt for Admission, Fees, Contact and Courses
+    # 5. Parse admission.txt as JSON to extract structured tables, contacts, recruiters, and BTEUP notices
     admission_path = PROCESSED_FOLDER / "admission.txt"
     if admission_path.exists():
-        with open(admission_path, "r", encoding="utf-8") as f:
-            adm_text = f.read().replace('\xa0', ' ')
+        try:
+            with open(admission_path, "r", encoding="utf-8") as f:
+                adm_data = json.load(f)
 
-        # Entry 1: Fee Structure
-        all_records.append({
-            "source_file": "admission.txt",
-            "url": "https://www.dbgisre.edu.in/fee-structure/",
-            "date": "Static Info",
-            "title": "DBGI Saharanpur Annual Fee Structure 2025-26",
-            "category": "Admission",
-            "content": (
-                "Annual Fee Structure for the Academic Session 2025-26:\n"
-                "- **B. Tech**: ₹ 55,000/-\n"
-                "- **B. Pharma**: ₹ 63,300/-\n"
-                "- **MBA**: ₹ 59,700/-\n"
-                "- **MCA**: ₹ 55,000/-\n"
-                "- **Polytechnic (Diploma Engg)**: ₹ 30,150/-\n"
-                "- **D. Pharma**: ₹ 45,000/-\n"
-                "- **BBA**: ₹ 24,500/-\n"
-                "- **BCA**: ₹ 35,500/-\n"
-                "- **B.COM**: ₹ 10,455/-\n\n"
-                "Official Fee Structure page: https://www.dbgisre.edu.in/fee-structure/"
-            )
-        })
+            # 5a. Courses Offered
+            if "courses" in adm_data:
+                courses_text = "Complete directory of courses and programs offered at DBGI Saharanpur:\n"
+                for course in adm_data["courses"]:
+                    courses_text += f"- **{course.get('course_name', '')}**: {course.get('url', '')}\n"
+                all_records.append({
+                    "source_file": "admission.txt",
+                    "url": "https://dbgisre.edu.in/student-registration/",
+                    "date": "Static Info",
+                    "title": "DBGI Saharanpur Courses Offered & Admission Links",
+                    "category": "Admission",
+                    "content": courses_text + "\nApply or Register for Admission here: https://dbgisre.edu.in/student-registration/"
+                })
 
-        # Entry 2: Contact Info
-        all_records.append({
-            "source_file": "admission.txt",
-            "url": "https://dbgisre.edu.in/contact-us/",
-            "date": "Static Info",
-            "title": "DBGI Saharanpur Admissions Office and Contact Information",
-            "category": "General Info",
-            "content": (
-                "DBGI Saharanpur Admissions Office Address & Contact details:\n"
-                "- **Address**: OUR ADMISSIONS OFFICE, 7 Km. Milestone Dabki Road, Village Beri Jamapur Ahtemal Via Civil Hospital Xing, Saharanpur (Uttar Pradesh) 247001\n"
-                "- **Email**: dbgi@dbgisre.edu.in\n"
-                "- **Contact Numbers**: +91 9568775222, +91 9568776222\n\n"
-                "Official Social Media Links:\n"
-                "- **Facebook**: https://www.facebook.com/dbgisre\n"
-                "- **Instagram**: https://www.instagram.com/dbgi.saharanpur/\n"
-                "- **YouTube**: https://www.youtube.com/@dbgisaharanpurofficial\n"
-                "- **Google Maps Location**: https://maps.google.com/?q=Dev+Bhoomi+Group+of+Institutions+Saharanpur"
-            )
-        })
+            # 5b. Fee Structure
+            if "fee_structure_2025_26" in adm_data:
+                fees_text = "Annual Fee Structure for the Academic Session 2025-26:\n"
+                for fee_item in adm_data["fee_structure_2025_26"]:
+                    fees_text += f"- **{fee_item.get('programme', '')}**: {fee_item.get('fee', '')}\n"
+                all_records.append({
+                    "source_file": "admission.txt",
+                    "url": "https://www.dbgisre.edu.in/fee-structure/",
+                    "date": "Static Info",
+                    "title": "DBGI Saharanpur Annual Fee Structure 2025-26",
+                    "category": "Admission",
+                    "content": fees_text + "\nOfficial Fee Structure page: https://www.dbgisre.edu.in/fee-structure/"
+                })
 
-        # Entry 3: Academic Calendars, Syllabus & Results Portals
-        all_records.append({
-            "source_file": "admission.txt",
-            "url": "https://dbgisre.edu.in/result/",
-            "date": "Static Info",
-            "title": "DBGI Academic Portals, Syllabus, Results & Calendars",
-            "category": "General Info",
-            "content": (
-                "Official links and portals for DBGI students:\n"
-                "- **Previous Year Exam Papers**: https://dbgisre.edu.in/old-exam-papers/\n"
-                "- **Syllabus details**: DBGI page (https://dbgisre.edu.in/syllabus/), AKTU (https://aktu.ac.in/syllabus.html), MSU (https://msuniversity.ac.in/syllabus.php), BTE UP (https://bteup.ac.in/webapp/home.aspx)\n"
-                "- **Academic Calendar**: DBGI page (https://dbgisre.edu.in/academic-calender/), AKTU (https://aktu.ac.in/academic-calender.html), MSU (https://msuniversity.ac.in/academic-calender.php), BTE UP (https://bteup.ac.in/webapp/home.aspx)\n"
-                "- **Result Portals**: DBGI page (https://dbgisre.edu.in/result/), AKTU OneView (https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx), MSU Results (https://msuresults.com/), BTE UP Portal (https://bteup.ac.in/webapp/home.aspx)"
-            )
-        })
+            # 5c. Staff Requirements
+            if "staff_requirements" in adm_data:
+                staff_text = "Staff & Recruitment Qualifications/Requirements at DBGI Saharanpur:\n"
+                for req in adm_data["staff_requirements"]:
+                    staff_text += f"- **{req.get('position', '')}**: {req.get('qualification', '')}\n"
+                all_records.append({
+                    "source_file": "admission.txt",
+                    "url": "https://dbgisre.edu.in/career-dbgi/",
+                    "date": "Static Info",
+                    "title": "DBGI Saharanpur Careers & Staff Recruitment Requirements",
+                    "category": "General Info",
+                    "content": staff_text
+                })
 
-        # Entry 4: Courses and Application Links
-        all_records.append({
-            "source_file": "admission.txt",
-            "url": "https://dbgisre.edu.in/student-registration/",
-            "date": "Static Info",
-            "title": "DBGI Saharanpur Courses Offered & Admission Links",
-            "category": "Admission",
-            "content": (
-                "Complete directory of courses and programs offered at DBGI Saharanpur:\n"
-                "- **B.Tech - Computer Science & Engineering**: https://www.dbgisre.edu.in/b-tech-computer-science-engineering/\n"
-                "- **B.Tech - Civil Engineering**: https://www.dbgisre.edu.in/b-tech-civil-engineering/\n"
-                "- **B.Tech - Electrical & Electronics Engineering**: https://www.dbgisre.edu.in/b-tech-electrical-electronics-engineering/\n"
-                "- **B.Tech - Mechanical Engineering (ME)**: https://www.dbgisre.edu.in/b-tech-mechanical-engineering-me/\n"
-                "- **B.Tech - Electronics & Communication Engineering**: https://www.dbgisre.edu.in/b-tech-electronics-and-communication-engineering/\n"
-                "- **MBA (Master of Business Administration)**: https://www.dbgisre.edu.in/master-of-business-administration-mba\n"
-                "- **MCA (Master of Computer Application)**: https://www.dbgisre.edu.in/master-of-computer-application-mca\n"
-                "- **BCA (Bachelor of Computer Application)**: https://www.dbgisre.edu.in/bachelor-of-computer-application-bca\n"
-                "- **BBA (Bachelor of Business Administration)**: https://www.dbgisre.edu.in/bachelor-of-business-administration-bba\n"
-                "- **B.Pharm (Bachelor of Pharmacy)**: https://www.dbgisre.edu.in/bachelor-of-pharmacy-b-pharma\n"
-                "- **D.Pharm (Diploma in Pharmacy)**: https://www.dbgisre.edu.in/diploma-in-pharmacy\n"
-                "- **Diploma in Civil Engineering**: https://www.dbgisre.edu.in/diploma-in-civil-engineering/\n"
-                "- **Diploma in Computer Science & Engineering**: https://www.dbgisre.edu.in/diploma-in-computer-science-engg/\n"
-                "- **Diploma in Mechanical Engineering (Automobile)**: https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringautomobile/\n"
-                "- **Diploma in Mechanical Engineering (Production)**: https://www.dbgisre.edu.in/diploma-in-mechanical-engineeringproduction/\n"
-                "- **Diploma in Electrical Engineering**: https://www.dbgisre.edu.in/diploma-in-electrical-engineering/\n"
-                "- **Diploma in Electronics & Communication**: https://www.dbgisre.edu.in/diploma-in-electronics-communication/\n\n"
-                "Apply or Register for Admission here: https://dbgisre.edu.in/student-registration/"
-            )
-        })
+            # 5d. Placements Recruiters
+            if "recruiters" in adm_data:
+                rec_text = "Key recruitment partners and companies visiting DBGI Saharanpur for campus placements:\n"
+                for rec in adm_data["recruiters"]:
+                    rec_text += f"- **{rec.get('company', '')}** (Flyer/Logo: {rec.get('logo_url', '')})\n"
+                all_records.append({
+                    "source_file": "admission.txt",
+                    "url": "https://dbgisre.edu.in/our-recruiters/",
+                    "date": "Static Info",
+                    "title": "DBGI Saharanpur Placement Recruiters and Partner Companies",
+                    "category": "Placements",
+                    "content": rec_text + "\nOfficial Recruiters Portal: https://dbgisre.edu.in/our-recruiters/"
+                })
+
+            # 5e. Contact Details
+            if "contact" in adm_data:
+                contact = adm_data["contact"]
+                contact_text = (
+                    f"DBGI Saharanpur Admissions Office Address & Contact details:\n"
+                    f"- **Institution Name**: {contact.get('Institution Name', '')}\n"
+                    f"- **Unit 1**: {contact.get('Unit 1', '')}\n"
+                    f"- **Unit 2 Name**: {contact.get('Unit 2 Name', '')}\n"
+                    f"- **Unit 2 Programs**: {contact.get('Unit 2 Programs', '')}\n"
+                    f"- **Unit 3 Name**: {contact.get('Unit 3 Name', '')}\n"
+                    f"- **Unit 3 Programs**: {contact.get('Unit 3 Programs', '')}\n"
+                    f"- **Unit 4 Name**: {contact.get('Unit 4 Name', '')}\n"
+                    f"- **Unit 4 Programs**: {contact.get('Unit 4 Programs', '')}\n"
+                    f"- **Address**: {contact.get('Address', '')}\n"
+                    f"- **Email**: {contact.get('Email', '')}\n"
+                    f"- **Phone**: {contact.get('Phone', '')}\n\n"
+                    f"Official Social Media Links:\n"
+                    f"- **Facebook**: {contact.get('Facebook', '')}\n"
+                    f"- **Instagram**: {contact.get('Instagram', '')}\n"
+                    f"- **Youtube**: {contact.get('Youtube', '')}\n"
+                )
+                all_records.append({
+                    "source_file": "admission.txt",
+                    "url": "https://dbgisre.edu.in/contact-us/",
+                    "date": "Static Info",
+                    "title": "DBGI Saharanpur Admissions Office and Contact Information",
+                    "category": "General Info",
+                    "content": contact_text
+                })
+
+            # 5f. Recent verified board notices (BTEUP, etc.)
+            if "notices_recent_2025_2026_verified" in adm_data:
+                for notice in adm_data["notices_recent_2025_2026_verified"]:
+                    all_records.append({
+                        "source_file": "admission.txt",
+                        "url": notice.get("pdf_url", ""),
+                        "date": "Static Info",
+                        "title": notice.get("title", ""),
+                        "category": "Notice Board",
+                        "content": f"Official Board Notice regarding: {notice.get('title', '')}. View PDF details here: {notice.get('pdf_url', '')}"
+                    })
+
+        except Exception as e:
+            print(f"Error parsing admission.txt as JSON: {e}. Falling back to default parsing.")
 
 # --- Step 3: De-duplicate records by title ---
 # If a notice exists both in list and as specific post, we keep the one with longer content.

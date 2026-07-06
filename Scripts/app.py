@@ -436,6 +436,7 @@ def search_relevant_notices(query: str, top_k: int = 6) -> list:
                         'date':     n.get('date', ''),
                         'category': n.get('category', ''),
                         'content':  n.get('content', ''),
+                        'url':      n.get('url', ''),
                         'source':   n.get('source_file', ''),
                     })
             return results
@@ -498,6 +499,7 @@ def basic_search(query: str, top_k: int = 6) -> list:
             'date':     n.get('date', ''),
             'category': n.get('category', ''),
             'content':  n.get('content', ''),
+            'url':      n.get('url', ''),
             'source':   n.get('source_file', ''),
         }
         for _, n in scored[:top_k]
