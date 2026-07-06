@@ -231,9 +231,8 @@ def call_gemini(prompt: str, api_key: str) -> str:
     # Try gemini-1.5-flash first, fallback to gemini-pro
     # Use v1 API with the correct available models
     models_to_try = [
-        'gemini-3.5-flash',
-        'gemini-3.1-flash-lite',
-        'gemini-2.5-flash-lite',
+        'gemini-2.5-flash',
+        'gemini-2.0-flash',
         'gemini-2.0-flash-lite'
     ]
     
@@ -244,7 +243,7 @@ def call_gemini(prompt: str, api_key: str) -> str:
                 'contents': [{'parts': [{'text': prompt}]}],
                 'generationConfig': {
                     'temperature': 0.7,
-                    'maxOutputTokens': 600,
+                    'maxOutputTokens': 2048,
                     'topK': 40,
                     'topP': 0.95,
                 }
