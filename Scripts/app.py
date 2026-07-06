@@ -361,38 +361,43 @@ def load_data():
             return False
 
         # Try loading ML models
-        try:
-            import faiss as faiss_module
-            import numpy as np_module
-            from sentence_transformers import SentenceTransformer as ST
-
-            print('[LOAD] Loading sentence transformer model...')
-            model = ST('all-MiniLM-L6-v2')
-            print('[OK] Loaded sentence transformer model')
-
-            vector_db_path = os.path.join(os.path.dirname(__file__), '..', 'vector_db')
-            index_path = os.path.join(vector_db_path, 'notice_index.faiss')
-
-            if os.path.exists(index_path):
-                index = faiss_module.read_index(index_path)
-                print('[OK] Loaded FAISS index successfully')
-            else:
-                print('[LOAD] Creating FAISS index from scratch...')
-                texts = [f"{n.get('title','')} {n.get('category','')} {n.get('content','')}" for n in notices]
-                embeddings = model.encode(texts, batch_size=32, show_progress_bar=True)
-                embeddings = np_module.array(embeddings).astype('float32')
-                dimension = embeddings.shape[1]
-                index = faiss_module.IndexFlatL2(dimension)
-                index.add(embeddings)
-                os.makedirs(vector_db_path, exist_ok=True)
-                faiss_module.write_index(index, index_path)
-                print(f'[OK] Created and saved FAISS index with {len(notices)} items')
-
-        except Exception as e:
-            print(f'[WARN] Could not load ML models: {e}')
-            print('  App will use keyword search')
+        if os.getenv('LOW_MEMORY', '').lower() == 'true':
+            print('[INFO] LOW_MEMORY mode is active. Skipping ML model loading.')
             model = None
             index = None
+        else:
+            try:
+                import faiss as faiss_module
+                import numpy as np_module
+                from sentence_transformers import SentenceTransformer as ST
+
+                print('[LOAD] Loading sentence transformer model...')
+                model = ST('all-MiniLM-L6-v2')
+                print('[OK] Loaded sentence transformer model')
+
+                vector_db_path = os.path.join(os.path.dirname(__file__), '..', 'vector_db')
+                index_path = os.path.join(vector_db_path, 'notice_index.faiss')
+
+                if os.path.exists(index_path):
+                    index = faiss_module.read_index(index_path)
+                    print('[OK] Loaded FAISS index successfully')
+                else:
+                    print('[LOAD] Creating FAISS index from scratch...')
+                    texts = [f"{n.get('title','')} {n.get('category','')} {n.get('content','')}" for n in notices]
+                    embeddings = model.encode(texts, batch_size=32, show_progress_bar=True)
+                    embeddings = np_module.array(embeddings).astype('float32')
+                    dimension = embeddings.shape[1]
+                    index = faiss_module.IndexFlatL2(dimension)
+                    index.add(embeddings)
+                    os.makedirs(vector_db_path, exist_ok=True)
+                    faiss_module.write_index(index, index_path)
+                    print(f'[OK] Created and saved FAISS index with {len(notices)} items')
+
+            except Exception as e:
+                print(f'[WARN] Could not load ML models: {e}')
+                print('  App will use keyword search')
+                model = None
+                index = None
 
         loading_complete = True
         print('[OK] College assistant fully loaded and ready!')

@@ -185,12 +185,16 @@ To deploy on PaaS environments such as **Render** or **Heroku**:
 * **Service Type**: Web Service
 * **Language**: Python
 * **Build Command**: `pip install -r requirements.txt`
-* **Start Command**: `cd Scripts && gunicorn app:app`
+* **Start Command**: `cd Scripts && gunicorn --bind 0.0.0.0:$PORT app:app`
+* **Environment Variables**:
+  * `LOW_MEMORY`: Set to `true` (Disables heavy local PyTorch/SentenceTransformers embeddings to prevent crashing on the 512MB RAM free tier, falling back to keyword search for notice matching).
+  * `GEMINI_API_KEY`: *Your Google AI Studio API Key*
+  * `PORT`: `5000` (or leave default)
 
 #### 3. Heroku Settings:
 Create a `Procfile` in your repository root with:
 ```web
-web: cd Scripts && gunicorn app:app
+web: cd Scripts && gunicorn --bind 0.0.0.0:$PORT app:app
 ```
 Then commit and push your code to Heroku.
 
