@@ -8,7 +8,7 @@ This guide provides step-by-step instructions for deploying the **College Assist
 
 Before deploying, ensure you have the following requirements:
 * **Python**: Version 3.8 to 3.11.
-* **Dependencies**: Listed in [requirements.txt](file:///d:/assistant/zipped/Scripts/requirements.txt).
+* **Dependencies**: Listed in [requirements.txt](file:///d:/assistant/zipped/requirements.txt).
 * **Disk Space**: At least 2GB of free disk space for downloading sentence-transformer models and hosting FAISS index files.
 * **API Keys (Optional)**:
   * `GEMINI_API_KEY`: Used for Gemini/Google AI Studio responses (preferred if available).
@@ -184,7 +184,7 @@ To deploy on PaaS environments such as **Render** or **Heroku**:
 #### 2. Render Settings:
 * **Service Type**: Web Service
 * **Language**: Python
-* **Build Command**: `pip install -r Scripts/requirements.txt`
+* **Build Command**: `pip install -r requirements.txt`
 * **Start Command**: `cd Scripts && gunicorn app:app`
 
 #### 3. Heroku Settings:
