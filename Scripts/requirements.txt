@@ -6,4 +6,5 @@ faiss-cpu
 sentence-transformers
 numpy
 torch
+gunicorn
 
