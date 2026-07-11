@@ -1,6 +1,6 @@
 # College Assistant - LLM-Powered College Information Chatbot
 
-A voice and text-based chatbot that answers questions about your college using AI and college data.
+A text-based chatbot that answers questions about your college using AI and college data.
 
 ## Features
 
